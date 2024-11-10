@@ -152,8 +152,7 @@ main {
     font-size: 2.2rem;
 }
 .patriciogif {
-    size-adjust: 3rem;
-    margin-inline: 35rem;
-    display: inline-block;
-
+    width: 15rem;
+    margin: 3rem;
+    display: inline;
 }
