@@ -1,14 +1,17 @@
+html {
+     font-size: 62.5%;
+}
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
     color: white;
-    background-color: #ff66b2; 
-    cursor: url("imagenes/puntero.png"), auto; 
+    background-image: url("imagenes/Fondos\ De\ Aliens.jpeg");
+    cursor: url("imagenes/maquina-de-tatuaje.png"), auto; 
     padding: 0;
-    font-size: xx-large;
+    font-size: 16px;
 }
 
 header {
-    background-color: #000; 
+    background-color: #313131; 
     padding: 30px 0;
     position: sticky;
     top: 0;
@@ -34,7 +37,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 3rem;
 }
 
 nav ul li a:hover {
@@ -45,6 +48,7 @@ h1 {
     text-align: center;
     margin: 0;
     color: white;
+    font-size: 6rem;
 }
 
 main {
@@ -53,16 +57,18 @@ main {
 
 .photo-gallery {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    margin: 2rem;
+    margin-left: 25%;
 }
 
 .photo-gallery img {
-    width: 80%;
+    width: 30rem;
     max-width: 500;
-    margin: 20px 0;
+    margin: 3rem 0;
     opacity: 1;
-    transform: translateY(100px);
+    transform: translateY(10rem);
     transition: opacity 3s, transform 2s;
     animation: fadeInUp 1s forwards;
     
@@ -71,15 +77,18 @@ main {
 .info {
     text-align: center;
     margin: 20px 0;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    background: rgb(231, 147, 99); opacity: 70%;
 }
 
 .info h2 {
-    font-size: 125px;
+    font-size: 8.8rem;
     
 }
 
 .contact-form {
-    background: #00f5cc;
+    background: #15cac1;
     border-radius: 10px;
     padding: 20px;
     margin: 60px 0;
@@ -91,7 +100,8 @@ main {
 }
 
 .contact-form label {
-    margin: 10px 0 5px;
+    margin: 7px 0 9px;
+    font-size: 2.5rem;
 }
 
 .contact-form input {
@@ -101,7 +111,7 @@ main {
     margin-bottom: 10px;
     background: #383636;
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 2rem;
 }
 
 .contact-form button {
@@ -111,7 +121,7 @@ main {
     background: #000;
     color: white;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 
 #thankyou-message {
@@ -126,10 +136,20 @@ main {
 
 .gifs {
     text-align: center;
-    margin: 20px 0;
+    margin: 2rem;
 }
 
 .gifs img {
-    width: 500px;
-    margin: 30px;
+    width: 25rem;
+    margin: 3rem;
+}
+.col-12 {
+    font-size: 2rem;
+}
+.form-check {
+    font-size: 2.2rem;
+}
+.patriciogif {
+    size: 1rem;
+    margin-left: 30%;
 }
